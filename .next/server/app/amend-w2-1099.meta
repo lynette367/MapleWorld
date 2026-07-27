@@ -1,0 +1,16 @@
+{
+  "headers": {
+    "x-nextjs-stale-time": "300",
+    "x-nextjs-prerender": "1",
+    "x-next-cache-tags": "_N_T_/layout,_N_T_/(tools)/layout,_N_T_/(tools)/amend-w2-1099/layout,_N_T_/(tools)/amend-w2-1099/page,_N_T_/amend-w2-1099"
+  },
+  "segmentPaths": [
+    "/_tree",
+    "/_full",
+    "/!KHRvb2xzKQ/amend-w2-1099/__PAGE__",
+    "/!KHRvb2xzKQ/amend-w2-1099",
+    "/!KHRvb2xzKQ",
+    "/_index",
+    "/_head"
+  ]
+}

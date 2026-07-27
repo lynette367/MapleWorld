@@ -1,0 +1,17 @@
+{
+  "headers": {
+    "x-nextjs-stale-time": "300",
+    "x-nextjs-prerender": "1",
+    "x-next-cache-tags": "_N_T_/layout,_N_T_/(guides)/layout,_N_T_/(guides)/guides/layout,_N_T_/(guides)/guides/j1-tax-guide/layout,_N_T_/(guides)/guides/j1-tax-guide/page,_N_T_/guides/j1-tax-guide"
+  },
+  "segmentPaths": [
+    "/_tree",
+    "/_full",
+    "/!KGd1aWRlcyk/guides/j1-tax-guide/__PAGE__",
+    "/!KGd1aWRlcyk/guides/j1-tax-guide",
+    "/!KGd1aWRlcyk/guides",
+    "/!KGd1aWRlcyk",
+    "/_index",
+    "/_head"
+  ]
+}

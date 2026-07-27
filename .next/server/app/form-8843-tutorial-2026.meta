@@ -1,0 +1,16 @@
+{
+  "headers": {
+    "x-nextjs-stale-time": "300",
+    "x-nextjs-prerender": "1",
+    "x-next-cache-tags": "_N_T_/layout,_N_T_/(tools)/layout,_N_T_/(tools)/form-8843-tutorial-2026/layout,_N_T_/(tools)/form-8843-tutorial-2026/page,_N_T_/form-8843-tutorial-2026"
+  },
+  "segmentPaths": [
+    "/_tree",
+    "/_full",
+    "/!KHRvb2xzKQ/form-8843-tutorial-2026/__PAGE__",
+    "/!KHRvb2xzKQ/form-8843-tutorial-2026",
+    "/!KHRvb2xzKQ",
+    "/_index",
+    "/_head"
+  ]
+}

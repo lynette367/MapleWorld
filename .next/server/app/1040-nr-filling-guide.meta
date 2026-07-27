@@ -1,0 +1,16 @@
+{
+  "headers": {
+    "x-nextjs-stale-time": "300",
+    "x-nextjs-prerender": "1",
+    "x-next-cache-tags": "_N_T_/layout,_N_T_/(tools)/layout,_N_T_/(tools)/1040-nr-filling-guide/layout,_N_T_/(tools)/1040-nr-filling-guide/page,_N_T_/1040-nr-filling-guide"
+  },
+  "segmentPaths": [
+    "/_tree",
+    "/_full",
+    "/!KHRvb2xzKQ/1040-nr-filling-guide/__PAGE__",
+    "/!KHRvb2xzKQ/1040-nr-filling-guide",
+    "/!KHRvb2xzKQ",
+    "/_index",
+    "/_head"
+  ]
+}

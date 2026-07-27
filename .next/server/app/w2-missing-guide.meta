@@ -1,0 +1,16 @@
+{
+  "headers": {
+    "x-nextjs-stale-time": "300",
+    "x-nextjs-prerender": "1",
+    "x-next-cache-tags": "_N_T_/layout,_N_T_/(guides)/layout,_N_T_/(guides)/w2-missing-guide/layout,_N_T_/(guides)/w2-missing-guide/page,_N_T_/w2-missing-guide"
+  },
+  "segmentPaths": [
+    "/_tree",
+    "/_full",
+    "/!KGd1aWRlcyk/w2-missing-guide/__PAGE__",
+    "/!KGd1aWRlcyk/w2-missing-guide",
+    "/!KGd1aWRlcyk",
+    "/_index",
+    "/_head"
+  ]
+}

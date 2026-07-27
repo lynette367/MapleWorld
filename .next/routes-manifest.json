@@ -1,0 +1,296 @@
+{
+  "version": 3,
+  "pages404": true,
+  "caseSensitive": false,
+  "basePath": "",
+  "redirects": [
+    {
+      "source": "/:path+/",
+      "destination": "/:path+",
+      "internal": true,
+      "priority": true,
+      "statusCode": 308,
+      "regex": "^(?:/((?:[^/]+?)(?:/(?:[^/]+?))*))/$"
+    }
+  ],
+  "headers": [
+    {
+      "source": "/archive/:path*",
+      "headers": [
+        {
+          "key": "X-Robots-Tag",
+          "value": "noindex, follow"
+        }
+      ],
+      "regex": "^/archive(?:/((?:[^/]+?)(?:/(?:[^/]+?))*))?(?:/)?$"
+    },
+    {
+      "source": "/study",
+      "headers": [
+        {
+          "key": "X-Robots-Tag",
+          "value": "noindex, follow"
+        }
+      ],
+      "regex": "^/study(?:/)?$"
+    },
+    {
+      "source": "/volunteer",
+      "headers": [
+        {
+          "key": "X-Robots-Tag",
+          "value": "noindex, follow"
+        }
+      ],
+      "regex": "^/volunteer(?:/)?$"
+    },
+    {
+      "source": "/aupair",
+      "headers": [
+        {
+          "key": "X-Robots-Tag",
+          "value": "noindex, follow"
+        }
+      ],
+      "regex": "^/aupair(?:/)?$"
+    },
+    {
+      "source": "/work",
+      "headers": [
+        {
+          "key": "X-Robots-Tag",
+          "value": "noindex, follow"
+        }
+      ],
+      "regex": "^/work(?:/)?$"
+    },
+    {
+      "source": "/immigration",
+      "headers": [
+        {
+          "key": "X-Robots-Tag",
+          "value": "noindex, follow"
+        }
+      ],
+      "regex": "^/immigration(?:/)?$"
+    }
+  ],
+  "rewrites": {
+    "beforeFiles": [],
+    "afterFiles": [
+      {
+        "source": "/study",
+        "destination": "/archive/study",
+        "regex": "^/study(?:/)?$"
+      },
+      {
+        "source": "/volunteer",
+        "destination": "/archive/volunteer",
+        "regex": "^/volunteer(?:/)?$"
+      },
+      {
+        "source": "/aupair",
+        "destination": "/archive/aupair",
+        "regex": "^/aupair(?:/)?$"
+      },
+      {
+        "source": "/work",
+        "destination": "/archive/work",
+        "regex": "^/work(?:/)?$"
+      },
+      {
+        "source": "/immigration",
+        "destination": "/archive/immigration",
+        "regex": "^/immigration(?:/)?$"
+      }
+    ],
+    "fallback": []
+  },
+  "dynamicRoutes": [
+    {
+      "page": "/guides/[slug]",
+      "regex": "^/guides/([^/]+?)(?:/)?$",
+      "routeKeys": {
+        "nxtPslug": "nxtPslug"
+      },
+      "namedRegex": "^/guides/(?<nxtPslug>[^/]+?)(?:/)?$"
+    }
+  ],
+  "staticRoutes": [
+    {
+      "page": "/",
+      "regex": "^/(?:/)?$",
+      "routeKeys": {},
+      "namedRegex": "^/(?:/)?$"
+    },
+    {
+      "page": "/_global-error",
+      "regex": "^/_global\\-error(?:/)?$",
+      "routeKeys": {},
+      "namedRegex": "^/_global\\-error(?:/)?$"
+    },
+    {
+      "page": "/_not-found",
+      "regex": "^/_not\\-found(?:/)?$",
+      "routeKeys": {},
+      "namedRegex": "^/_not\\-found(?:/)?$"
+    },
+    {
+      "page": "/1040-nr-filling-guide",
+      "regex": "^/1040\\-nr\\-filling\\-guide(?:/)?$",
+      "routeKeys": {},
+      "namedRegex": "^/1040\\-nr\\-filling\\-guide(?:/)?$"
+    },
+    {
+      "page": "/1042-vs-1042-s",
+      "regex": "^/1042\\-vs\\-1042\\-s(?:/)?$",
+      "routeKeys": {},
+      "namedRegex": "^/1042\\-vs\\-1042\\-s(?:/)?$"
+    },
+    {
+      "page": "/amend-w2-1099",
+      "regex": "^/amend\\-w2\\-1099(?:/)?$",
+      "routeKeys": {},
+      "namedRegex": "^/amend\\-w2\\-1099(?:/)?$"
+    },
+    {
+      "page": "/api/contact",
+      "regex": "^/api/contact(?:/)?$",
+      "routeKeys": {},
+      "namedRegex": "^/api/contact(?:/)?$"
+    },
+    {
+      "page": "/compliance",
+      "regex": "^/compliance(?:/)?$",
+      "routeKeys": {},
+      "namedRegex": "^/compliance(?:/)?$"
+    },
+    {
+      "page": "/compliance/can-f1-open-company",
+      "regex": "^/compliance/can\\-f1\\-open\\-company(?:/)?$",
+      "routeKeys": {},
+      "namedRegex": "^/compliance/can\\-f1\\-open\\-company(?:/)?$"
+    },
+    {
+      "page": "/f1-tax-treaty-calculator",
+      "regex": "^/f1\\-tax\\-treaty\\-calculator(?:/)?$",
+      "routeKeys": {},
+      "namedRegex": "^/f1\\-tax\\-treaty\\-calculator(?:/)?$"
+    },
+    {
+      "page": "/favicon.ico",
+      "regex": "^/favicon\\.ico(?:/)?$",
+      "routeKeys": {},
+      "namedRegex": "^/favicon\\.ico(?:/)?$"
+    },
+    {
+      "page": "/fica-refund-calculator",
+      "regex": "^/fica\\-refund\\-calculator(?:/)?$",
+      "routeKeys": {},
+      "namedRegex": "^/fica\\-refund\\-calculator(?:/)?$"
+    },
+    {
+      "page": "/form-8843-amend-guide",
+      "regex": "^/form\\-8843\\-amend\\-guide(?:/)?$",
+      "routeKeys": {},
+      "namedRegex": "^/form\\-8843\\-amend\\-guide(?:/)?$"
+    },
+    {
+      "page": "/form-8843-guide",
+      "regex": "^/form\\-8843\\-guide(?:/)?$",
+      "routeKeys": {},
+      "namedRegex": "^/form\\-8843\\-guide(?:/)?$"
+    },
+    {
+      "page": "/form-8843-tutorial-2026",
+      "regex": "^/form\\-8843\\-tutorial\\-2026(?:/)?$",
+      "routeKeys": {},
+      "namedRegex": "^/form\\-8843\\-tutorial\\-2026(?:/)?$"
+    },
+    {
+      "page": "/guides",
+      "regex": "^/guides(?:/)?$",
+      "routeKeys": {},
+      "namedRegex": "^/guides(?:/)?$"
+    },
+    {
+      "page": "/guides/j1-tax-guide",
+      "regex": "^/guides/j1\\-tax\\-guide(?:/)?$",
+      "routeKeys": {},
+      "namedRegex": "^/guides/j1\\-tax\\-guide(?:/)?$"
+    },
+    {
+      "page": "/opt-late-filing-guide",
+      "regex": "^/opt\\-late\\-filing\\-guide(?:/)?$",
+      "routeKeys": {},
+      "namedRegex": "^/opt\\-late\\-filing\\-guide(?:/)?$"
+    },
+    {
+      "page": "/opt-turbotax",
+      "regex": "^/opt\\-turbotax(?:/)?$",
+      "routeKeys": {},
+      "namedRegex": "^/opt\\-turbotax(?:/)?$"
+    },
+    {
+      "page": "/robots.txt",
+      "regex": "^/robots\\.txt(?:/)?$",
+      "routeKeys": {},
+      "namedRegex": "^/robots\\.txt(?:/)?$"
+    },
+    {
+      "page": "/sitemap.xml",
+      "regex": "^/sitemap\\.xml(?:/)?$",
+      "routeKeys": {},
+      "namedRegex": "^/sitemap\\.xml(?:/)?$"
+    },
+    {
+      "page": "/tax-deadlines-2026",
+      "regex": "^/tax\\-deadlines\\-2026(?:/)?$",
+      "routeKeys": {},
+      "namedRegex": "^/tax\\-deadlines\\-2026(?:/)?$"
+    },
+    {
+      "page": "/tools",
+      "regex": "^/tools(?:/)?$",
+      "routeKeys": {},
+      "namedRegex": "^/tools(?:/)?$"
+    },
+    {
+      "page": "/tools/opt-tax",
+      "regex": "^/tools/opt\\-tax(?:/)?$",
+      "routeKeys": {},
+      "namedRegex": "^/tools/opt\\-tax(?:/)?$"
+    },
+    {
+      "page": "/turbotax-pitfalls-2026",
+      "regex": "^/turbotax\\-pitfalls\\-2026(?:/)?$",
+      "routeKeys": {},
+      "namedRegex": "^/turbotax\\-pitfalls\\-2026(?:/)?$"
+    },
+    {
+      "page": "/w2-missing-guide",
+      "regex": "^/w2\\-missing\\-guide(?:/)?$",
+      "routeKeys": {},
+      "namedRegex": "^/w2\\-missing\\-guide(?:/)?$"
+    }
+  ],
+  "dataRoutes": [],
+  "rsc": {
+    "header": "rsc",
+    "varyHeader": "rsc, next-router-state-tree, next-router-prefetch, next-router-segment-prefetch",
+    "prefetchHeader": "next-router-prefetch",
+    "didPostponeHeader": "x-nextjs-postponed",
+    "contentTypeHeader": "text/x-component",
+    "suffix": ".rsc",
+    "prefetchSuffix": ".prefetch.rsc",
+    "prefetchSegmentHeader": "next-router-segment-prefetch",
+    "prefetchSegmentSuffix": ".segment.rsc",
+    "prefetchSegmentDirSuffix": ".segments",
+    "clientParamParsing": false,
+    "dynamicRSCPrerender": false
+  },
+  "rewriteHeaders": {
+    "pathHeader": "x-nextjs-rewritten-path",
+    "queryHeader": "x-nextjs-rewritten-query"
+  }
+}

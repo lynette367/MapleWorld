@@ -1,12 +1,12 @@
 {
   "app": {
-    "[project]/src/app/(guides)/guides/[slug]/page": [
+    "[project]/src/app/(tools)/opt-turbotax/page": [
       "static/media/07454f8ad8aaac57-s.p.fc65572f.woff2"
     ],
-    "[project]/src/app/(tools)/tools/opt-tax/page": [
+    "[project]/src/app/compliance/can-f1-open-company/page": [
       "static/media/07454f8ad8aaac57-s.p.fc65572f.woff2"
     ],
-    "[project]/src/app/_not-found/page": [
+    "[project]/src/app/compliance/page": [
       "static/media/07454f8ad8aaac57-s.p.fc65572f.woff2"
     ],
     "[project]/src/app/page": [

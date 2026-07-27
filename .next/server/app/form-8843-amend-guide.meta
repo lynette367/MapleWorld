@@ -1,0 +1,16 @@
+{
+  "headers": {
+    "x-nextjs-stale-time": "300",
+    "x-nextjs-prerender": "1",
+    "x-next-cache-tags": "_N_T_/layout,_N_T_/(guides)/layout,_N_T_/(guides)/form-8843-amend-guide/layout,_N_T_/(guides)/form-8843-amend-guide/page,_N_T_/form-8843-amend-guide"
+  },
+  "segmentPaths": [
+    "/_tree",
+    "/_full",
+    "/!KGd1aWRlcyk/form-8843-amend-guide/__PAGE__",
+    "/!KGd1aWRlcyk/form-8843-amend-guide",
+    "/!KGd1aWRlcyk",
+    "/_index",
+    "/_head"
+  ]
+}

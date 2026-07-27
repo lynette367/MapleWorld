@@ -1,0 +1,17 @@
+{
+  "headers": {
+    "x-nextjs-stale-time": "300",
+    "x-nextjs-prerender": "1",
+    "x-next-cache-tags": "_N_T_/layout,_N_T_/(guides)/layout,_N_T_/(guides)/guides/layout,_N_T_/(guides)/guides/[slug]/layout,_N_T_/(guides)/guides/[slug]/page,_N_T_/guides/turbotax-pitfalls"
+  },
+  "segmentPaths": [
+    "/_tree",
+    "/_full",
+    "/!KGd1aWRlcyk/guides/$d$slug/__PAGE__",
+    "/!KGd1aWRlcyk/guides/$d$slug",
+    "/!KGd1aWRlcyk/guides",
+    "/!KGd1aWRlcyk",
+    "/_index",
+    "/_head"
+  ]
+}

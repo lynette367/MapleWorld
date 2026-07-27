@@ -1,0 +1,16 @@
+{
+  "headers": {
+    "x-nextjs-stale-time": "300",
+    "x-nextjs-prerender": "1",
+    "x-next-cache-tags": "_N_T_/layout,_N_T_/(tools)/layout,_N_T_/(tools)/turbotax-pitfalls-2026/layout,_N_T_/(tools)/turbotax-pitfalls-2026/page,_N_T_/turbotax-pitfalls-2026"
+  },
+  "segmentPaths": [
+    "/_tree",
+    "/_full",
+    "/!KHRvb2xzKQ/turbotax-pitfalls-2026/__PAGE__",
+    "/!KHRvb2xzKQ/turbotax-pitfalls-2026",
+    "/!KHRvb2xzKQ",
+    "/_index",
+    "/_head"
+  ]
+}
