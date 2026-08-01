@@ -1,12 +1,9 @@
 {
   "app": {
-    "[project]/src/app/(tools)/opt-turbotax/page": [
+    "[project]/src/app/(tools)/1040-nr-filling-guide/page": [
       "static/media/07454f8ad8aaac57-s.p.fc65572f.woff2"
     ],
-    "[project]/src/app/compliance/can-f1-open-company/page": [
-      "static/media/07454f8ad8aaac57-s.p.fc65572f.woff2"
-    ],
-    "[project]/src/app/compliance/page": [
+    "[project]/src/app/(tools)/tools/page": [
       "static/media/07454f8ad8aaac57-s.p.fc65572f.woff2"
     ],
     "[project]/src/app/page": [

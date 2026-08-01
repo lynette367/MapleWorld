@@ -76,6 +76,18 @@ const allGuides = [
         description: "详细梳理 4 步联系雇主及 IRS 替代方案，助你顺利开启报税流程。",
         audience: "在校内或校外工作但未按时收到 W-2 的学生。",
         href: "/w2-missing-guide"
+    },
+    {
+        title: "留学生身份合规专区：开公司 / W8BEN / 法律风险完整指南",
+        description: "F1 / OPT 留学生身份合规专题总览：能不能开公司、W8BEN 怎么填、开公司后要注意哪些法律红线，按决策顺序整理成系列。",
+        audience: "在报税之外，还想弄清楚开公司、身份合规风险的 F1 / OPT 留学生。",
+        href: "/compliance"
+    },
+    {
+        title: "F1 / OPT 留学生可以开公司吗？身份合规完整指南",
+        description: "被动股东和主动经营的分界线在哪？F1 / CPT / OPT / STEM OPT 各阶段的具体差异是什么？附身份风险自测工具。",
+        audience: "正在考虑开公司、但不确定会不会影响 F1 / OPT 身份的留学生。",
+        href: "/compliance/can-f1-open-company"
     }
 ];
 const allTools = [
@@ -141,6 +153,13 @@ const allTools = [
         cta: "立即避坑",
         ctaText: "对比：TurboTax vs Sprintax 留学生报税优劣",
         href: "/turbotax-pitfalls-2026"
+    },
+    {
+        title: "开公司身份风险自测",
+        description: "回答 2-3 个问题，判断你打算开的公司属于被动投资还是主动经营，给出对应的风险等级和下一步建议。",
+        cta: "开始自测",
+        ctaText: "自测：F1/OPT 开公司身份风险等级",
+        href: "/compliance/can-f1-open-company"
     }
 ];
 }),

@@ -31,6 +31,14 @@ const footerNav = [
       { label: "2026 报税倒计时", href: "/tax-deadlines-2026" },
     ],
   },
+  {
+    title: "身份合规 (Status & Compliance)",
+    links: [
+      { label: "F1/OPT 能否开公司？完整指南", href: "/compliance/can-f1-open-company" },
+      { label: "W8BEN 填写解析", href: "#", disabled: true },
+      { label: "开公司法律注意事项", href: "#", disabled: true },
+    ],
+  },
 ];
 
 const seoKeywords = [
@@ -102,7 +110,7 @@ export function Footer() {
             </div>
           </div>
 
-          <nav className="grid grid-cols-1 gap-10 sm:grid-cols-3 sm:gap-6 lg:w-[600px]">
+          <nav className="grid grid-cols-1 gap-10 sm:grid-cols-2 lg:grid-cols-4 lg:w-[760px]">
             {footerNav.map((category) => (
               <div key={category.title} className="flex flex-col gap-4">
                 <p className="text-[10px] font-bold uppercase tracking-[0.3em] text-brand-ink/40">

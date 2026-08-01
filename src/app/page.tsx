@@ -120,30 +120,6 @@ const stories = [
   },
 ];
 
-
-const pricingTiers = [
-  {
-    name: "基础版",
-    price: "¥29",
-    description: "清单 + 流程，适合：只想自己做对。",
-    cta: "获取基础版",
-  },
-  {
-    name: "标准版",
-    price: "¥69",
-    description: "基础版 + 判断树/对照表 + 提交前检查表。",
-    cta: "解锁标准版",
-    highlight: true,
-  },
-  {
-    name: "加速版",
-    price: "¥129",
-    description:
-      "标准版 + 一次文字答疑（不代填、不保证结果），适合卡在关键选择点。",
-    cta: "解锁加速版",
-  },
-];
-
 const faqs = [
   {
     question: "1. 美国报税 TurboTax 和 FreeTaxUSA 哪个更适合留学生？",
@@ -197,29 +173,13 @@ const faqs = [
   },
 ];
 
-const ClockIcon = ({ className }: { className?: string }) => (
-  <svg
-    xmlns="http://www.w3.org/2000/svg"
-    viewBox="0 0 24 24"
-    fill="none"
-    stroke="currentColor"
-    strokeWidth="2"
-    strokeLinecap="round"
-    strokeLinejoin="round"
-    className={className}
-  >
-    <circle cx="12" cy="12" r="10" />
-    <polyline points="12 6 12 12 16 14" />
-  </svg>
-);
-
 export default function Home() {
   return (
     <main className="pb-16 text-brand-ink">
       <span style={{ display: 'none' }}>Impact-Site-Verification: eed619a2-8edf-4f11-9504-97edd29deaf9</span>
 
 
-      <section className="relative isolate flex min-h-[90vh] items-center justify-center overflow-hidden bg-[#F7C6D9] bg-paper px-4 pb-12 sm:pb-20 lg:pb-32">
+      <section className="relative isolate flex min-h-[90vh] items-center justify-center overflow-hidden bg-[#F7C6D9] bg-paper px-4 pt-40 pb-12 sm:pb-20 lg:pb-32">
         <WorldMap />
         <div className="pointer-events-none absolute inset-0 bg-white/10" />
         <div className="pointer-events-none absolute inset-x-0 bottom-0 h-32 bg-brand-pink/60" />
@@ -414,6 +374,35 @@ export default function Home() {
               </h3>
             </Link>
           </div>
+
+          {/* 身份合规专区入口 —— 与上面 Guides / Tools 两个板块保持同一视觉结构 */}
+          <div
+            className="mt-6 block rounded-[28px] border border-brand-pink/40 bg-white/90 p-6 shadow-[0_18px_60px_rgba(244,185,200,0.25)] flex flex-col gap-4"
+          >
+            <Link
+              href="/compliance"
+              className="inline-flex items-center gap-2 px-4 py-1.5 rounded-full bg-brand-pink/10 border border-brand-pink/20 text-brand-pinkdeep hover:bg-brand-pink/20 hover:scale-[1.02] transition-all group w-fit"
+            >
+              <span className="text-xs sm:text-sm uppercase tracking-[0.2em] font-bold">
+                Compliance / 身份合规
+              </span>
+              <span className="text-sm font-bold opacity-0 group-hover:opacity-100 transition-opacity translate-x-[-10px] group-hover:translate-x-0">→</span>
+            </Link>
+
+            <Link
+              href="/compliance/can-f1-open-company"
+              className="group flex gap-3 text-sm sm:text-base text-brand-ink/80 hover:text-brand-pinkdeep bg-brand-pink/10 p-4 rounded-2xl border border-brand-pink/20 transition hover:scale-[1.01]"
+            >
+              <span className="mt-1.5 h-2 w-2 shrink-0 rounded-full bg-brand-pinkdeep group-hover:bg-brand-pinkhover" />
+              <h3 className="font-bold underline underline-offset-4 decoration-brand-pink/40 group-hover:decoration-brand-pinkdeep text-brand-ink">
+                ✨【新专题】F1 / OPT 留学生可以开公司吗？身份合规完整指南 + 风险自测
+              </h3>
+            </Link>
+
+            <p className="text-xs text-brand-ink/40 pl-1">
+              开公司之后要不要填 W8BEN、有哪些法律红线，专区内容持续更新中
+            </p>
+          </div>
         </div>
       </section>
 
@@ -502,6 +491,7 @@ export default function Home() {
               { label: "J1 Tax", href: "/guides/j1-tax-guide", color: "#E28E8E" },
               { label: "1040-X 修正", href: "/guides/opt-1040-fix", color: "#94B49F" },
               { label: "逾期报税补救", href: "/guides/f1-late-filing-guide", color: "#D4BEAD" },
+              { label: "F1 开公司", href: "/compliance/can-f1-open-company", color: "#A2B5BB" },
             ].map((tag) => (
               <Link
                 key={tag.label}
